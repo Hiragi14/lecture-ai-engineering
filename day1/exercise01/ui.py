@@ -9,6 +9,8 @@ from config import MODEL_NAME
 import llm
 from llm import load_model, generate_response
 
+# --- アプリケーション設定 ---
+st.set_page_config(page_title="Gemma Chatbot", layout="wide")
 
 st.title("exercise01")
 st.sidebar.header("チャット履歴")
